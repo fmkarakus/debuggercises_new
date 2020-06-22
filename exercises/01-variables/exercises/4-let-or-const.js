@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* declare and assign variables as described in the comments
 
@@ -15,24 +15,23 @@
 
 */
 
-
-_;
+const x = "a";
 console.log(x); // should print 'a'
 
-_;
+let y = "b";
 console.log(y); // should print 'b'
 
 console.log(x); // should print 'a'
 
-_;
+let z;
 console.log(z); // should print undefined
 
 console.log(y); // should print 'b'
 
-_;
+z = "c";
 console.log(z); // should print 'c'
 
-_;
+y = y + "d";
 console.log(y); // should print 'bd'
 
 console.log(x); // should print 'a'
