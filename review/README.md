@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/22/2020, 10:24:43 PM 
+> 6/22/2020, 10:26:39 PM 
 
 ## /exercises 
 
@@ -18,11 +18,11 @@
     - [/2-reusing-variables.js](./01-variables/examples/README.md#2-reusing-variablesjs)  
     - [/3-const-vs-let.js](./01-variables/examples/README.md#3-const-vs-letjs) - _error_ 
   - [/exercises](./01-variables/exercises/README.md)
-    - [/1-let.js](./01-variables/exercises/README.md#1-letjs) - _incomplete_ 
-    - [/2-let.js](./01-variables/exercises/README.md#2-letjs) - _incomplete_ 
-    - [/3-let-or-const.js](./01-variables/exercises/README.md#3-let-or-constjs) - _incomplete_ 
-    - [/4-let-or-const.js](./01-variables/exercises/README.md#4-let-or-constjs) - _incomplete_ 
-    - [/5-let-or-const.js](./01-variables/exercises/README.md#5-let-or-constjs) - _incomplete_ 
+    - [/1-let.js](./01-variables/exercises/README.md#1-letjs)  
+    - [/2-let.js](./01-variables/exercises/README.md#2-letjs)  
+    - [/3-let-or-const.js](./01-variables/exercises/README.md#3-let-or-constjs)  
+    - [/4-let-or-const.js](./01-variables/exercises/README.md#4-let-or-constjs)  
+    - [/5-let-or-const.js](./01-variables/exercises/README.md#5-let-or-constjs)  
 - [/02-primitive-types](./02-primitive-types/README.md)
   - [/examples](./02-primitive-types/examples/README.md)
     - [/boolean-undefined-null.js](./02-primitive-types/examples/README.md#boolean-undefined-nulljs)  
