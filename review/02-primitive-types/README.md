@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/22/2020, 10:26:39 PM 
+> 6/22/2020, 10:32:26 PM 
 
 ## [exercises](../README.md)/02-primitive-types 
 
@@ -10,4 +10,4 @@
   - [/string.js](./examples/README.md#stringjs)  
   - [/typeof.js](./examples/README.md#typeofjs)  
 - [/exercises](./exercises/README.md)
-  - [/fill-in-the-type.js](./exercises/README.md#fill-in-the-typejs) - _incomplete_ 
+  - [/fill-in-the-type.js](./exercises/README.md#fill-in-the-typejs)  

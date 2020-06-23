@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/22/2020, 10:26:39 PM 
+> 6/22/2020, 10:32:26 PM 
 
 ## [exercises](../README.md)/03-comparing-and-asserting 
 
@@ -12,5 +12,5 @@
   - [/object-is.js](./examples/README.md#object-isjs)  
   - [/strict-inequality.js](./examples/README.md#strict-inequalityjs)  
 - [/exercises](./exercises/README.md)
-  - [/1.js](./exercises/README.md#1js) - _incomplete_ 
-  - [/2.js](./exercises/README.md#2js) - _incomplete_ 
+  - [/1.js](./exercises/README.md#1js) - _pass_ 
+  - [/2.js](./exercises/README.md#2js) - _pass_ 
