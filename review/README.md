@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/23/2020, 5:21:42 PM 
+> 6/23/2020, 5:54:01 PM 
 
 ## /exercises 
 
@@ -106,20 +106,20 @@
   - [/2-exercise.js](./08-functions-201/README.md#2-exercisejs) - _pass_ 
 - [/09-block-scope](./09-block-scope/README.md)
   - [/1-missing-values](./09-block-scope/1-missing-values/README.md)
-    - [/1.js](./09-block-scope/1-missing-values/README.md#1js) - _incomplete_ 
-    - [/2.js](./09-block-scope/1-missing-values/README.md#2js) - _incomplete_ 
+    - [/1.js](./09-block-scope/1-missing-values/README.md#1js) - _pass_ 
+    - [/2.js](./09-block-scope/1-missing-values/README.md#2js) - _pass_ 
   - [/2-missing-variables](./09-block-scope/2-missing-variables/README.md)
-    - [/1.js](./09-block-scope/2-missing-variables/README.md#1js) - _incomplete_ 
-    - [/2.js](./09-block-scope/2-missing-variables/README.md#2js) - _incomplete_ 
-    - [/3.js](./09-block-scope/2-missing-variables/README.md#3js) - _incomplete_ 
+    - [/1.js](./09-block-scope/2-missing-variables/README.md#1js) - _pass_ 
+    - [/2.js](./09-block-scope/2-missing-variables/README.md#2js) - _pass_ 
+    - [/3.js](./09-block-scope/2-missing-variables/README.md#3js) - _pass_ 
   - [/3-assign-values](./09-block-scope/3-assign-values/README.md)
-    - [/1.js](./09-block-scope/3-assign-values/README.md#1js) - _incomplete_ 
-    - [/2.js](./09-block-scope/3-assign-values/README.md#2js) - _incomplete_ 
-    - [/3.js](./09-block-scope/3-assign-values/README.md#3js) - _incomplete_ 
+    - [/1.js](./09-block-scope/3-assign-values/README.md#1js) - _pass_ 
+    - [/2.js](./09-block-scope/3-assign-values/README.md#2js) - _pass_ 
+    - [/3.js](./09-block-scope/3-assign-values/README.md#3js) - _pass_ 
   - [/4-declare-and-assign](./09-block-scope/4-declare-and-assign/README.md)
-    - [/1.js](./09-block-scope/4-declare-and-assign/README.md#1js) - _incomplete_ 
-    - [/2.js](./09-block-scope/4-declare-and-assign/README.md#2js) - _incomplete_ 
-    - [/3.js](./09-block-scope/4-declare-and-assign/README.md#3js) - _incomplete_ 
+    - [/1.js](./09-block-scope/4-declare-and-assign/README.md#1js) - _pass_ 
+    - [/2.js](./09-block-scope/4-declare-and-assign/README.md#2js) - _pass_ 
+    - [/3.js](./09-block-scope/4-declare-and-assign/README.md#3js) - _pass_ 
 - [/10-conditional-statements](./10-conditional-statements/README.md)
   - [/0-examples](./10-conditional-statements/0-examples/README.md)
     - [/1-if.js](./10-conditional-statements/0-examples/README.md#1-ifjs) - _pass_ 
