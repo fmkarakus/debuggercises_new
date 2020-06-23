@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/23/2020, 4:37:31 PM 
+> 6/23/2020, 5:01:29 PM 
 
 ## /exercises 
 
@@ -97,9 +97,9 @@
     - [/4-not.js](./07-logical-operators/examples/README.md#4-notjs)  
     - [/5-short-circuiting.js](./07-logical-operators/examples/README.md#5-short-circuitingjs)  
   - [/exercises](./07-logical-operators/exercises/README.md)
-    - [/and.js](./07-logical-operators/exercises/README.md#andjs) - _incomplete_ 
-    - [/not.js](./07-logical-operators/exercises/README.md#notjs) - _incomplete_ 
-    - [/or.js](./07-logical-operators/exercises/README.md#orjs) - _incomplete_ 
+    - [/and.js](./07-logical-operators/exercises/README.md#andjs) - _pass_ 
+    - [/not.js](./07-logical-operators/exercises/README.md#notjs) - _pass_ 
+    - [/or.js](./07-logical-operators/exercises/README.md#orjs) - _pass_ 
 - [/08-functions-201](./08-functions-201/README.md)
   - [/0-example.js](./08-functions-201/README.md#0-examplejs) - _pass_ 
   - [/1-exercise.js](./08-functions-201/README.md#1-exercisejs) - _incomplete_ 
