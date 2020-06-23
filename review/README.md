@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/23/2020, 4:32:34 PM 
+> 6/23/2020, 4:37:31 PM 
 
 ## /exercises 
 
@@ -85,9 +85,9 @@
     - [/3-number.js](./06-explicit-coercion/examples/README.md#3-numberjs)  
     - [/4-about-nan.js](./06-explicit-coercion/examples/README.md#4-about-nanjs) - _fail_ 
   - [/exercises](./06-explicit-coercion/exercises/README.md)
-    - [/1-write-expected.js](./06-explicit-coercion/exercises/README.md#1-write-expectedjs) - _incomplete_ 
-    - [/2-write-arguments.js](./06-explicit-coercion/exercises/README.md#2-write-argumentsjs) - _incomplete_ 
-    - [/3-write-function.js](./06-explicit-coercion/exercises/README.md#3-write-functionjs) - _fail_ 
+    - [/1-write-expected.js](./06-explicit-coercion/exercises/README.md#1-write-expectedjs) - _pass_ 
+    - [/2-write-arguments.js](./06-explicit-coercion/exercises/README.md#2-write-argumentsjs) - _pass_ 
+    - [/3-write-function.js](./06-explicit-coercion/exercises/README.md#3-write-functionjs) - _pass_ 
 - [/07-logical-operators](./07-logical-operators/README.md)
   - [/examples](./07-logical-operators/examples/README.md)
     - [/0-truthiness.js](./07-logical-operators/examples/README.md#0-truthinessjs)  
