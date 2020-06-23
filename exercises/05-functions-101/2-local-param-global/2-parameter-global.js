@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* using global scope variables in your functions is a VERY BAD IDEA
 
@@ -9,26 +9,25 @@
   that's why you should only use parameters and local variables in your functions
 */
 
-let global = '';
+let global = "";
 
 const funk = (parameter) => {
   global = `${global}funky`;
   return `${global} ${parameter}`;
 };
 
-const funkReturn1 = funk('hello');
-const funk1 = funkReturn1 === _;
-console.assert(funk1, 'Test 1: funk');
+const funkReturn1 = funk("hello");
+const funk1 = funkReturn1 === "funky hello";
+console.assert(funk1, "Test 1: funk");
 
-global = '#';
+global = "#";
 
-const funkReturn2 = funk('boat');
-const funk2 = funkReturn2 === _;
-console.assert(funk2, 'Test 2: funk');
+const funkReturn2 = funk("boat");
+const funk2 = funkReturn2 === "#funky boat";
+console.assert(funk2, "Test 2: funk");
 
 global = `${global}!`;
 
-const funkReturn3 = funk('tree');
-const funk3 = funkReturn3 === _;
-console.assert(funk3, 'Test 3: funk');
-
+const funkReturn3 = funk("tree");
+const funk3 = funkReturn3 === "#funky!funky tree";
+console.assert(funk3, "Test 3: funk");
