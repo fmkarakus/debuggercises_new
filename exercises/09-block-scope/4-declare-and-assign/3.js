@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
-_;
-console.assert(m === 1, 'Test 1: m');
+let m = 1;
+console.assert(m === 1, "Test 1: m");
 {
-  _;
-  _;
-  console.assert(m === 2, 'Test 2: m');
-  console.assert(l === 3, 'Test 3: l');
+  m = 2;
+  let l = 3;
+  console.assert(m === 2, "Test 2: m");
+  console.assert(l === 3, "Test 3: l");
 }
-_;
-console.assert(m === 4, 'Test 4: m');
+m = 4;
+console.assert(m === 4, "Test 4: m");
