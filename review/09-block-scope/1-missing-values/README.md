@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/23/2020, 5:01:29 PM 
+> 6/23/2020, 5:21:42 PM 
 
 ## [exercises](../../README.md)/[09-block-scope](../README.md)/1-missing-values 
 
