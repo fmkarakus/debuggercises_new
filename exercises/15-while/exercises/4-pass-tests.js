@@ -26,8 +26,9 @@ const alternator = (range, str1, str2) => {
     } else {
       result += str2;
     }
+    i++;
   }
-  i++;
+
   if (typeof result !== "string") {
     throw new TypeError("result");
   }
