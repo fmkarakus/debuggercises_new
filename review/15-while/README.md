@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/26/2020, 2:47:22 PM 
+> 6/26/2020, 2:54:11 PM 
 
 ## [exercises](../README.md)/15-while 
 
@@ -11,4 +11,4 @@
   - [/1-write-tests.js](./exercises/README.md#1-write-testsjs) - _pass_ 
   - [/2-fix-the-bugs.js](./exercises/README.md#2-fix-the-bugsjs) - _pass_ 
   - [/3-pass-tests.js](./exercises/README.md#3-pass-testsjs) - _pass_ 
-  - [/4-pass-tests.js](./exercises/README.md#4-pass-testsjs) - _too much iteration_ 
+  - [/4-pass-tests.js](./exercises/README.md#4-pass-testsjs) - _pass_ 

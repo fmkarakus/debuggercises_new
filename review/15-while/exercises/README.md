@@ -1,13 +1,13 @@
 # Debuggercises 
 
-> 6/26/2020, 2:47:22 PM 
+> 6/26/2020, 2:54:11 PM 
 
 ## [exercises](../../README.md)/[15-while](../README.md)/exercises 
 
 - [/1-write-tests.js](#1-write-testsjs) - _pass_ 
 - [/2-fix-the-bugs.js](#2-fix-the-bugsjs) - _pass_ 
 - [/3-pass-tests.js](#3-pass-testsjs) - _pass_ 
-- [/4-pass-tests.js](#4-pass-testsjs) - _too much iteration_ 
+- [/4-pass-tests.js](#4-pass-testsjs) - _pass_ 
 ---
 
 ## /1-write-tests.js 
@@ -247,22 +247,17 @@ console.assert(_6_actual === _6_expect, "Test  6");
 
 ## /4-pass-tests.js 
 
-> too much iteration 
+> pass 
 >
 > [review source](../../../exercises/15-while/exercises/4-pass-tests.js)
 
 ```txt
-UNCAUGHT: Error: Loop exceeded 20 iterations
-    at alternator (  ...  /exercises/15-while/exercises/4-pass-tests.js:23:56)
-    at Object.<anonymous> (  ...  /exercises/15-while/exercises/4-pass-tests.js:38:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
++ PASS: Test  1
++ PASS: Test  2
++ PASS: Test  3
++ PASS: Test  4
++ PASS: Test  5
++ PASS: Test  6
 ```
 
 ```js
@@ -294,8 +289,9 @@ const alternator = (range, str1, str2) => {
     } else {
       result += str2;
     }
+    i++;
   }
-  i++;
+
   if (typeof result !== "string") {
     throw new TypeError("result");
   }
