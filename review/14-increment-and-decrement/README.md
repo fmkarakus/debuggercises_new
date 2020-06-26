@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/23/2020, 7:43:03 PM 
+> 6/26/2020, 2:47:22 PM 
 
 ## [exercises](../README.md)/14-increment-and-decrement 
 
@@ -10,6 +10,6 @@
   - [/prefix-decrement.js](./examples/README.md#prefix-decrementjs)  
   - [/prefix-increment.js](./examples/README.md#prefix-incrementjs)  
 - [/exercises](./exercises/README.md)
-  - [/1.js](./exercises/README.md#1js) - _incomplete_ 
-  - [/2.js](./exercises/README.md#2js) - _incomplete_ 
-  - [/3.js](./exercises/README.md#3js) - _incomplete_ 
+  - [/1.js](./exercises/README.md#1js) - _pass_ 
+  - [/2.js](./exercises/README.md#2js) - _pass_ 
+  - [/3.js](./exercises/README.md#3js) - _pass_ 

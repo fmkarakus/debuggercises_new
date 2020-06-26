@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/23/2020, 7:43:03 PM 
+> 6/26/2020, 2:47:22 PM 
 
 ## [exercises](../../README.md)/[17-refactoring-loops](../README.md)/exercises 
 
@@ -26,7 +26,7 @@
 ```
 
 ```js
-'use strict';
+"use strict";
 
 /**
  * repeat a string once for every character in the string
@@ -34,42 +34,46 @@
  * @returns {string}
  */
 const repeatLengthTimes = (toRepeat) => {
-  if (typeof toRepeat !== 'string') { throw new TypeError('toRepeat'); }
-
-  let result = '';
-  for (let i = 0; i < toRepeat.length; i++) {
-    result += toRepeat;
+  if (typeof toRepeat !== "string") {
+    throw new TypeError("toRepeat");
   }
 
-  if (typeof result !== 'string') { throw new TypeError('result'); }
+  let i = 0;
+  let result = "";
+  while (i < toRepeat.length) {
+    result += toRepeat;
+    i++;
+  }
+
+  if (typeof result !== "string") {
+    throw new TypeError("result");
+  }
   return result;
 };
 
+const _1_expect = "3232";
+const _1_actual = repeatLengthTimes("32");
+console.assert(_1_actual === _1_expect, "Test  1");
 
-const _1_expect = '3232';
-const _1_actual = repeatLengthTimes('32');
-console.assert(_1_actual === _1_expect, 'Test  1');
+const _2_expect = "";
+const _2_actual = repeatLengthTimes("");
+console.assert(_2_actual === _2_expect, "Test  2");
 
-const _2_expect = '';
-const _2_actual = repeatLengthTimes('');
-console.assert(_2_actual === _2_expect, 'Test  2');
+const _3_expect = "321321321";
+const _3_actual = repeatLengthTimes("321");
+console.assert(_3_actual === _3_expect, "Test  3");
 
-const _3_expect = '321321321';
-const _3_actual = repeatLengthTimes('321');
-console.assert(_3_actual === _3_expect, 'Test  3');
+const _4_expect = "-<>--<>--<>--<>-";
+const _4_actual = repeatLengthTimes("-<>-");
+console.assert(_4_actual === _4_expect, "Test  4");
 
-const _4_expect = '-<>--<>--<>--<>-';
-const _4_actual = repeatLengthTimes('-<>-');
-console.assert(_4_actual === _4_expect, 'Test  4');
+const _5_expect = ".";
+const _5_actual = repeatLengthTimes(".");
+console.assert(_5_actual === _5_expect, "Test  5");
 
-const _5_expect = '.';
-const _5_actual = repeatLengthTimes('.');
-console.assert(_5_actual === _5_expect, 'Test  5');
-
-const _6_expect = '5432154321543215432154321';
-const _6_actual = repeatLengthTimes('54321');
-console.assert(_6_actual === _6_expect, 'Test  6');
-
+const _6_expect = "5432154321543215432154321";
+const _6_actual = repeatLengthTimes("54321");
+console.assert(_6_actual === _6_expect, "Test  6");
 
 ```
 
@@ -96,7 +100,7 @@ console.assert(_6_actual === _6_expect, 'Test  6');
 ```
 
 ```js
-'use strict';
+"use strict";
 
 /**
  * among the greatest mysteries in the world, no one knows!
@@ -104,57 +108,61 @@ console.assert(_6_actual === _6_expect, 'Test  6');
  * @returns {number}
  */
 const mystery = (x) => {
-  if (typeof x !== 'number') { throw new TypeError('x'); }
-
+  if (typeof x !== "number") {
+    throw new TypeError("x");
+  }
+  let i = 0;
   let result = 0;
-  for (let i = 0; i !== Math.abs(x); i++) {
+  while (i !== Math.abs(x)) {
     if (x > 0) {
       result += 1;
     } else {
       result += -1;
     }
+    i++;
   }
 
-  if (typeof result !== 'number') { throw new TypeError('result'); }
+  if (typeof result !== "number") {
+    throw new TypeError("result");
+  }
   return result;
 };
 
-
 const _1_actual = mystery(-4);
 const _1_expect = -4;
-console.assert(_1_actual === _1_expect, 'Test  1');
+console.assert(_1_actual === _1_expect, "Test  1");
 
 const _2_actual = mystery(-3);
 const _2_expect = -3;
-console.assert(_2_actual === _2_expect, 'Test  2');
+console.assert(_2_actual === _2_expect, "Test  2");
 
 const _3_actual = mystery(-2);
 const _3_expect = -2;
-console.assert(_3_actual === _3_expect, 'Test  3');
+console.assert(_3_actual === _3_expect, "Test  3");
 
 const _4_actual = mystery(-1);
 const _4_expect = -1;
-console.assert(_4_actual === _4_expect, 'Test  4');
+console.assert(_4_actual === _4_expect, "Test  4");
 
 const _5_expect = 0;
 const _5_actual = mystery(0);
-console.assert(_5_actual === _5_expect, 'Test  5');
+console.assert(_5_actual === _5_expect, "Test  5");
 
 const _6_expect = 1;
 const _6_actual = mystery(1);
-console.assert(_6_actual === _6_expect, 'Test  6');
+console.assert(_6_actual === _6_expect, "Test  6");
 
 const _7_expect = 2;
 const _7_actual = mystery(2);
-console.assert(_7_actual === _7_expect, 'Test  7');
+console.assert(_7_actual === _7_expect, "Test  7");
 
 const _8_expect = 3;
 const _8_actual = mystery(3);
-console.assert(_8_actual === _8_expect, 'Test  8');
+console.assert(_8_actual === _8_expect, "Test  8");
 
 const _9_expect = 4;
 const _9_actual = mystery(4);
-console.assert(_9_actual === _9_expect, 'Test  9');
+console.assert(_9_actual === _9_expect, "Test  9");
 
 ```
 
@@ -171,8 +179,8 @@ console.assert(_9_actual === _9_expect, 'Test  9');
 ```txt
 + PASS: Test  1
 UNCAUGHT: Error: Loop exceeded 20 iterations
-    at mystery (  ...  /exercises/17-refactoring-loops/exercises/3-while-to-for.js:18:54)
-    at Object.<anonymous> (  ...  /exercises/17-refactoring-loops/exercises/3-while-to-for.js:33:19)
+    at mystery (  ...  /exercises/17-refactoring-loops/exercises/3-while-to-for.js:19:71)
+    at Object.<anonymous> (  ...  /exercises/17-refactoring-loops/exercises/3-while-to-for.js:34:19)
     at Module._compile (internal/modules/cjs/loader.js:1200:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
     at Module.load (internal/modules/cjs/loader.js:1049:32)
@@ -184,7 +192,7 @@ UNCAUGHT: Error: Loop exceeded 20 iterations
 ```
 
 ```js
-'use strict';
+"use strict";
 
 // refactor (re-write) this function to use a for loop instead of a while loop
 //  it should still pass all the same tests!
@@ -197,44 +205,44 @@ UNCAUGHT: Error: Loop exceeded 20 iterations
  * @returns {number}
  */
 const mystery = (x) => {
-  if (typeof x !== 'number') { throw new TypeError('x'); }
-
-  let result = 0;
-  let i = 0;
-  while (i !== x) {
-    result += i;
-    i += 2;
+  if (typeof x !== "number") {
+    throw new TypeError("x");
   }
 
-  if (typeof result !== 'number') { throw new TypeError('result'); }
+  let result = 0;
+  for (let i = 0; i !== x; i += 2) {
+    result += i;
+  }
+
+  if (typeof result !== "number") {
+    throw new TypeError("result");
+  }
   return result;
 };
 
-
 const _1_expect = 0;
 const _1_actual = mystery(0);
-console.assert(_1_actual === _1_expect, 'Test  1');
+console.assert(_1_actual === _1_expect, "Test  1");
 
 const _2_expect = 2450;
 const _2_actual = mystery(100);
-console.assert(_2_actual === _2_expect, 'Test  2');
+console.assert(_2_actual === _2_expect, "Test  2");
 
 const _3_expect = 30;
 const _3_actual = mystery(12);
-console.assert(_3_actual === _3_expect, 'Test  3');
+console.assert(_3_actual === _3_expect, "Test  3");
 
 const _4_expect = 20;
 const _4_actual = mystery(10);
-console.assert(_4_actual === _4_expect, 'Test  4');
+console.assert(_4_actual === _4_expect, "Test  4");
 
 const _5_expect = 1406;
 const _5_actual = mystery(76);
-console.assert(_5_actual === _5_expect, 'Test  5');
+console.assert(_5_actual === _5_expect, "Test  5");
 
 const _6_expect = 0;
 const _6_actual = mystery(2);
-console.assert(_6_actual === _6_expect, 'Test  6');
-
+console.assert(_6_actual === _6_expect, "Test  6");
 
 ```
 
@@ -258,7 +266,7 @@ console.assert(_6_actual === _6_expect, 'Test  6');
 ```
 
 ```js
-'use strict';
+"use strict";
 
 // refactor (re-write) this function to use a for loop instead of a while loop
 //  it should still pass all the same tests!
@@ -271,43 +279,44 @@ console.assert(_6_actual === _6_expect, 'Test  6');
  * @returns {number}
  */
 const mystery = (x) => {
-  if (typeof x !== 'number') { throw new TypeError('x'); }
-
-  let result = 0;
-  let i = 6;
-  while (i % 6 !== x) {
-    result = result + i--;
+  if (typeof x !== "number") {
+    throw new TypeError("x");
   }
 
-  if (typeof result !== 'number') { throw new TypeError('result'); }
-  return result;
-}
+  let result = 0;
+  for (let i = 6; i % 6 !== x; i--) {
+    result = result + i;
+  }
 
+  if (typeof result !== "number") {
+    throw new TypeError("result");
+  }
+  return result;
+};
 
 const _1_expect = 15;
 const _1_actual = mystery(3);
-console.assert(_1_actual === _1_expect, 'Test  1');
+console.assert(_1_actual === _1_expect, "Test  1");
 
 const _2_expect = 18;
 const _2_actual = mystery(-3);
-console.assert(_2_actual === _2_expect, 'Test  2');
+console.assert(_2_actual === _2_expect, "Test  2");
 
 const _3_expect = 0;
 const _3_actual = mystery(0);
-console.assert(_3_actual === _3_expect, 'Test  3');
+console.assert(_3_actual === _3_expect, "Test  3");
 
 const _4_expect = 11;
 const _4_actual = mystery(4);
-console.assert(_4_actual === _4_expect, 'Test  4');
+console.assert(_4_actual === _4_expect, "Test  4");
 
 const _5_expect = 15;
 const _5_actual = mystery(-4);
-console.assert(_5_actual === _5_expect, 'Test  5');
+console.assert(_5_actual === _5_expect, "Test  5");
 
 const _6_expect = 20;
 const _6_actual = mystery(-2);
-console.assert(_6_actual === _6_expect, 'Test  6');
-
+console.assert(_6_actual === _6_expect, "Test  6");
 
 ```
 

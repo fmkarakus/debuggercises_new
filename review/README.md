@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/23/2020, 7:43:03 PM 
+> 6/26/2020, 2:47:22 PM 
 
 ## /exercises 
 
@@ -157,14 +157,14 @@
     - [/1-documenting-functions.js](./12-functions-301/0-examples/README.md#1-documenting-functionsjs)  
     - [/2-enforcing-types.js](./12-functions-301/0-examples/README.md#2-enforcing-typesjs)  
   - [/1-fill-in-the-blanks](./12-functions-301/1-fill-in-the-blanks/README.md)
-    - [/1-write-tests.js](./12-functions-301/1-fill-in-the-blanks/README.md#1-write-testsjs) - _incomplete_ 
-    - [/2-write-tests.js](./12-functions-301/1-fill-in-the-blanks/README.md#2-write-testsjs) - _incomplete_ 
-    - [/3-pass-tests.js](./12-functions-301/1-fill-in-the-blanks/README.md#3-pass-testsjs) - _incomplete_ 
-    - [/4-pass-tests.js](./12-functions-301/1-fill-in-the-blanks/README.md#4-pass-testsjs) - _incomplete_ 
+    - [/1-write-tests.js](./12-functions-301/1-fill-in-the-blanks/README.md#1-write-testsjs) - _pass_ 
+    - [/2-write-tests.js](./12-functions-301/1-fill-in-the-blanks/README.md#2-write-testsjs) - _pass_ 
+    - [/3-pass-tests.js](./12-functions-301/1-fill-in-the-blanks/README.md#3-pass-testsjs) - _pass_ 
+    - [/4-pass-tests.js](./12-functions-301/1-fill-in-the-blanks/README.md#4-pass-testsjs) - _pass_ 
   - [/2-fix-the-bugs](./12-functions-301/2-fix-the-bugs/README.md)
-    - [/1.js](./12-functions-301/2-fix-the-bugs/README.md#1js) - _fail_ 
-    - [/2.js](./12-functions-301/2-fix-the-bugs/README.md#2js) - _error_ 
-    - [/3.js](./12-functions-301/2-fix-the-bugs/README.md#3js) - _fail_ 
+    - [/1.js](./12-functions-301/2-fix-the-bugs/README.md#1js) - _pass_ 
+    - [/2.js](./12-functions-301/2-fix-the-bugs/README.md#2js) - _pass_ 
+    - [/3.js](./12-functions-301/2-fix-the-bugs/README.md#3js) - _pass_ 
 - [/13-roles-of-variables](./13-roles-of-variables/README.md)
   - [/readme.js](./13-roles-of-variables/README.md#readmejs)  
   - [/back-tracing.js](./13-roles-of-variables/README.md#back-tracingjs)  
@@ -175,28 +175,28 @@
     - [/prefix-decrement.js](./14-increment-and-decrement/examples/README.md#prefix-decrementjs)  
     - [/prefix-increment.js](./14-increment-and-decrement/examples/README.md#prefix-incrementjs)  
   - [/exercises](./14-increment-and-decrement/exercises/README.md)
-    - [/1.js](./14-increment-and-decrement/exercises/README.md#1js) - _incomplete_ 
-    - [/2.js](./14-increment-and-decrement/exercises/README.md#2js) - _incomplete_ 
-    - [/3.js](./14-increment-and-decrement/exercises/README.md#3js) - _incomplete_ 
+    - [/1.js](./14-increment-and-decrement/exercises/README.md#1js) - _pass_ 
+    - [/2.js](./14-increment-and-decrement/exercises/README.md#2js) - _pass_ 
+    - [/3.js](./14-increment-and-decrement/exercises/README.md#3js) - _pass_ 
 - [/15-while](./15-while/README.md)
   - [/examples](./15-while/examples/README.md)
     - [/1-while.js](./15-while/examples/README.md#1-whilejs) - _pass_ 
     - [/2-while-infinite.js](./15-while/examples/README.md#2-while-infinitejs) - _too much iteration_ 
   - [/exercises](./15-while/exercises/README.md)
-    - [/1-write-tests.js](./15-while/exercises/README.md#1-write-testsjs) - _incomplete_ 
-    - [/2-fix-the-bugs.js](./15-while/exercises/README.md#2-fix-the-bugsjs) - _error_ 
-    - [/3-pass-tests.js](./15-while/exercises/README.md#3-pass-testsjs) - _incomplete_ 
-    - [/4-pass-tests.js](./15-while/exercises/README.md#4-pass-testsjs) - _incomplete_ 
+    - [/1-write-tests.js](./15-while/exercises/README.md#1-write-testsjs) - _pass_ 
+    - [/2-fix-the-bugs.js](./15-while/exercises/README.md#2-fix-the-bugsjs) - _pass_ 
+    - [/3-pass-tests.js](./15-while/exercises/README.md#3-pass-testsjs) - _pass_ 
+    - [/4-pass-tests.js](./15-while/exercises/README.md#4-pass-testsjs) - _too much iteration_ 
 - [/16-for](./16-for/README.md)
   - [/examples](./16-for/examples/README.md)
     - [/1-for-many-lines.js](./16-for/examples/README.md#1-for-many-linesjs) - _pass_ 
     - [/2-for-one-line.js](./16-for/examples/README.md#2-for-one-linejs) - _pass_ 
     - [/3-for-infinite.js](./16-for/examples/README.md#3-for-infinitejs) - _too much iteration_ 
   - [/exercises](./16-for/exercises/README.md)
-    - [/1-write-tests.js](./16-for/exercises/README.md#1-write-testsjs) - _incomplete_ 
-    - [/2-fix-the-bugs.js](./16-for/exercises/README.md#2-fix-the-bugsjs) - _error_ 
-    - [/3-pass-tests.js](./16-for/exercises/README.md#3-pass-testsjs) - _incomplete_ 
-    - [/4-pass-tests.js](./16-for/exercises/README.md#4-pass-testsjs) - _incomplete_ 
+    - [/1-write-tests.js](./16-for/exercises/README.md#1-write-testsjs) - _pass_ 
+    - [/2-fix-the-bugs.js](./16-for/exercises/README.md#2-fix-the-bugsjs) - _pass_ 
+    - [/3-pass-tests.js](./16-for/exercises/README.md#3-pass-testsjs) - _pass_ 
+    - [/4-pass-tests.js](./16-for/exercises/README.md#4-pass-testsjs) - _pass_ 
 - [/17-refactoring-loops](./17-refactoring-loops/README.md)
   - [/exercises](./17-refactoring-loops/exercises/README.md)
     - [/1-for-to-while.js](./17-refactoring-loops/exercises/README.md#1-for-to-whilejs) - _pass_ 
